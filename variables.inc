@@ -1,0 +1,13 @@
+[Variables]
+Streak=1
+TotalSolved=27
+LC_Count=6
+GFG_Count=21
+FireImg=fireon.png
+Day1Color=60,60,60,255
+Day2Color=60,60,60,255
+Day3Color=60,60,60,255
+Day4Color=60,60,60,255
+Day5Color=255,255,255,255
+Day6Color=60,60,60,255
+Day7Color=60,60,60,255
