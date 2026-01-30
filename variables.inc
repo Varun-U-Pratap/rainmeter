@@ -1,8 +1,8 @@
 [Variables]
 Streak=2
-TotalSolved=34
-LC_Count=11
-GFG_Count=23
+TotalSolved=36
+LC_Count=12
+GFG_Count=24
 FireImg=fireon.png
 Day1Color=60,60,60,255
 Day2Color=60,60,60,255
