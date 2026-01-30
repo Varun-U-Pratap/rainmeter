@@ -1,0 +1,21 @@
+How to stop the App Installer popup when left-clicking the widget (e.g. offline)
+===============================================================================
+
+Option A - Use full path to Python (recommended)
+------------------------------------------------
+1. Open Command Prompt (Win+R, type cmd, Enter).
+2. Run:  where pythonw
+3. Copy the path shown (e.g. C:\Users\...\pythonw.exe)
+4. Open local.inc in a text editor (in the same folder as DSATracker.ini).
+5. Uncomment the PythonPath and PythonParam lines (remove the ; at the start).
+6. Set PythonPath= to your path from step 2 (add quotes if it has spaces).
+7. Save and refresh the skin (right-click skin -> Refresh).
+
+Option B - Turn off Windows alias
+----------------------------------
+1. Open Windows Settings (Win+I).
+2. Go to: Apps -> Advanced app settings -> App execution aliases
+3. Find "pythonw" (or "App Installer - pythonw") and turn it OFF.
+4. Refresh the skin.
+
+After either option, left-clicking the widget when offline should no longer open the App Installer.
