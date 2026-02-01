@@ -72,18 +72,20 @@ The result is a lightweight monitoring system that reflects genuine effort, not 
 
 ---
 
-### Setup Instructions
+## Setup Instructions
 
-Clone the repository into your Rainmeter skins directory:
+### Clone the repository into your Rainmeter skins directory by running the following command in any bash terminal:
 
 ```bash
 cd ~/Documents/Rainmeter/Skins
 git clone https://github.com/Varun-U-Pratap/DSA_Widget.git
-config.example.json → config.json
+cd ~/Documents/Rainmeter/Skins/DSA_Widget/
+mv config.example.json config.json
+mv local.inc.example local.inc
 ```
 
-Edit config.json and add your usernames:
-
+### Edit config.json and add your usernames:
+add your usernames instead of your_username
 ```json
 {
   "leetcode_username": "your_username",
@@ -92,12 +94,14 @@ Edit config.json and add your usernames:
 }
 ```
 
-If Python is not detected automatically, configure it manually:
-
-```ini
-local.inc.example → local.inc  
-PythonPath=C:\Path\To\pythonw.exe
+### If Python is not detected automatically or the widget is blank, configure it manually or else you are good t go:
+open CMD and run
+```bash
+where pythonw
 ```
+copy the last path and paste it instead of C:\Path\To\pythonw.exe in local.inc
+
+
 
 ---
 
@@ -108,4 +112,4 @@ PythonPath=C:\Path\To\pythonw.exe
 
 ## 📞 Contact Me
 
-For any inquiries, feedback, or collaborations regarding NutriCalc, please reach out to me on LinkedIn.
+For any inquiries, feedback, or collaborations regarding DSA Tracker, please reach out to me on LinkedIn.
