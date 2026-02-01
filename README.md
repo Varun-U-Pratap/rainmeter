@@ -1,4 +1,4 @@
-# 🔥 DSA Tracker for Rainmeter
+# DSA Tracker for Rainmeter
 
 ![DSATracker Banner](https://placehold.co/1200x400/FF9600/141414?text=DSATracker&font=inter)![DSA Tracker Preview](fireon.png)![DSA Tracker Preview](fireoff.png)
 
